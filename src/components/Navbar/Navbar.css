@@ -1,8 +1,9 @@
 nav {
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 1.2rem;
 }
 
 nav a {

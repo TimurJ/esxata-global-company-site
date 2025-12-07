@@ -1,5 +1,7 @@
+import HomePage from '../components/HomePage/HomePage'
+
 const Home: React.FC = () => {
-  return <div>Home Page</div>
+  return <HomePage />
 }
 
 export default Home
