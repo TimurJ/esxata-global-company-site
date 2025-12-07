@@ -1,0 +1,17 @@
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.company-logo {
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+}
