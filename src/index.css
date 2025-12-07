@@ -1,13 +1,17 @@
 :root {
-  --primary: #da2f04;
+  --primary: white;
   --secondary: #33670a;
-  --background: #fffaee;
-  --border: #ccc;
-  --font: Pacifico, cursive, sans-serif;
+  --background: #001220;
+  --font: 'Playfair Display', serif;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--font);
 }
