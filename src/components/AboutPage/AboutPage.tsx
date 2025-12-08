@@ -4,14 +4,12 @@ const AboutPage: React.FC = () => {
   return (
     <div className="about">
       <div className="about-section-1">
-        <div className="company-name">
-          <h1 className="main-company-name">ESXATA</h1>
-          <h2 className="secondary-company-name">GLOBAL PROPERTIES</h2>
-        </div>
+        <h1 className="about-header">ABOUT ESXATA GLOBAL PROPERTIES</h1>
         <div className="countries-list">
           <p>London • Central Asia • Dubai</p>
         </div>
 
+        <h2 className="founder-header">Message From The Founder</h2>
         <div className="founder-section">
           <img className="founder-image" src={founder} alt="Image of the company founder" />
           <div className="founder-quote-name">
@@ -24,7 +22,7 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
         <div className="about-page-lines">
-          <svg viewBox="0 0 500 500" width="100%" height="200px" preserveAspectRatio="none">
+          <svg viewBox="0 0 500 500" width="100%" height="250px" preserveAspectRatio="none">
             <path
               d="M0,100 Q250,500 500,400"
               fill="none"
@@ -43,7 +41,7 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
       <div className="about-section-2">
-        <h2 className="section-header">About Esxata Global Properties</h2>
+        <h2 className="section-header">The Mission</h2>
         <div className="about-section-text">
           <p>
             Esxata Global Properties was created with a clear purpose: to offer a quieter, more

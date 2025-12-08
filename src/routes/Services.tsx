@@ -1,5 +1,7 @@
+import ServicesPage from '../components/ServicesPage/ServicesPage'
+
 const Services: React.FC = () => {
-  return <div>Services Page</div>
+  return <ServicesPage />
 }
 
 export default Services
