@@ -1,7 +1,8 @@
 :root {
-  --primary: white;
-  --secondary: #001220;
-  --background: #001220;
+  --primary: rgba(230, 230, 230, 1);
+  --secondary: rgba(0, 18, 32, 1);
+  --background: rgba(0, 18, 32, 1);
+  --accent-color: rgba(249, 213, 104, 1);
   --font: 'Playfair Display', serif;
 }
 
@@ -14,4 +15,12 @@
 body {
   background-color: var(--background);
   font-family: var(--font);
+}
+
+nav {
+  height: 10vh;
+}
+
+main {
+  height: 90vh;
 }
