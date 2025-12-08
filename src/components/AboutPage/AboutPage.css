@@ -1,4 +1,4 @@
-.home {
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,33 +11,33 @@
   position: relative;
 }
 
-.main-company-name {
-  font-size: 5.5rem;
-  font-weight: 600;
-}
-
-.secondary-company-name {
+.countries-list {
   font-size: 2rem;
-  font-weight: 400;
 }
 
-.home-tagline-mission {
+.founder-section {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  width: 50%;
+  border-radius: 20px;
 }
 
-.tagline {
-  font-size: 4rem;
-  font-weight: 400;
+.founder-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
-.mission {
-  font-size: 2rem;
-  font-weight: 400;
+.founder-quote-name {
+  margin-left: 80px;
+  font-size: 1.5rem;
 }
 
-.lines {
+.founder-quote {
+  margin-bottom: 20px;
+}
+
+.about-page-lines {
   height: 100%;
   width: 100%;
 }
