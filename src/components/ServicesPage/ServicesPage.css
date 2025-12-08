@@ -1,0 +1,37 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 90vh;
+  background-image: url('../../assets/skyline.webp');
+  background-size: cover;
+  background-position: center;
+  color: var(--secondary);
+  position: relative;
+}
+
+.services-descriptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-title {
+  font-size: 4rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.services-card {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.service-header {
+  font-size: 2.5rem;
+}
+
+.service-description {
+  font-size: 1.2rem;
+}
