@@ -1,9 +1,0 @@
-.button {
-  height: 50px;
-  width: 150px;
-  font-size: 1.3rem;
-  font-family: var(--font);
-  color: var(--primary);
-  background-color: var(--background);
-  border: 1px solid var(--primary);
-}
