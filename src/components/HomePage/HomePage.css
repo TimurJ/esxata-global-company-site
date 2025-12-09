@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 90vh;
   background-image: url('../../assets/skyline.webp');
   background-size: cover;
@@ -11,13 +11,17 @@
   position: relative;
 }
 
+.company-name {
+  padding-right: 30px;
+}
+
 .main-company-name {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 600;
 }
 
 .secondary-company-name {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 
@@ -28,16 +32,17 @@
 }
 
 .tagline {
-  font-size: 4rem;
+  font-size: 3.4rem;
   font-weight: 400;
 }
 
 .mission {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 400;
 }
 
 .lines {
   height: 100%;
   width: 100%;
+  margin-bottom: 50px;
 }
