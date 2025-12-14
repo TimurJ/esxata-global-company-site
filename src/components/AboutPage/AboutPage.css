@@ -79,3 +79,19 @@
   margin: 20px 0 20px 0;
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  .founder-section {
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 100%;
+  }
+
+  .founder-quote-name {
+    margin: 0 25px 0 25px;
+  }
+
+  .about-section-text {
+    max-width: 80%;
+  }
+}
