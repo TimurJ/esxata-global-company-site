@@ -6,7 +6,7 @@
   min-height: 90vh;
   background-image: url('../../assets/skyline.webp');
   background-size: cover;
-  background-position: center;
+  background-position: left;
   color: var(--secondary);
   position: relative;
 }

@@ -15,3 +15,14 @@ nav a {
   height: 100px;
   width: 100px;
 }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+  }
+
+  nav a {
+    min-width: 50px;
+  }
+}
