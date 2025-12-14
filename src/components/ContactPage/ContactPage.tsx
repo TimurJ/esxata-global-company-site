@@ -36,7 +36,7 @@ const ContactPage: React.FC = () => {
         </div>
       </div>
       <div className="lines">
-        <svg viewBox="0 0 500 500" width="100%" height="250px" preserveAspectRatio="none">
+        <svg viewBox="0 0 500 500" width="100%" height="200px" preserveAspectRatio="none">
           <path
             d="M0,100 Q250,500 500,400"
             fill="none"

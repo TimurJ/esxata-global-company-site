@@ -6,6 +6,7 @@
   background-image: url('../../assets/skyline.webp');
   background-size: cover;
   background-position: center;
+  min-height: 90vh;
   color: var(--secondary);
 }
 
@@ -22,7 +23,7 @@
 .founder-section {
   display: flex;
   align-items: center;
-  max-width: 60%;
+  max-width: 50%;
   border-radius: 20px;
   margin-top: 50px;
 }

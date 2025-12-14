@@ -22,11 +22,9 @@ const AboutPage: React.FC = () => {
             <p className="founder-name">- Mashkhura Ruziboeva, Founder</p>
           </div>
         </div>
-        <div className="countries-list">
-          <p>London • Central Asia • Dubai</p>
-        </div>
+
         <div className="about-page-lines">
-          <svg viewBox="0 0 500 500" width="100%" height="250px" preserveAspectRatio="none">
+          <svg viewBox="0 0 500 500" width="100%" height="200px" preserveAspectRatio="none">
             <path
               d="M0,100 Q250,500 500,400"
               fill="none"
