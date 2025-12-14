@@ -1,12 +1,13 @@
 import './AboutPage.css'
-import founder from '../../assets/company-logo-original.png'
+import founder from '../../assets/founder-image.webp'
+
 const AboutPage: React.FC = () => {
   return (
     <div className="about">
       <div className="about-section-1">
-        <h1 className="about-header">ABOUT ESXATA GLOBAL PROPERTIES</h1>
-        <div className="countries-list">
-          <p>London • Central Asia • Dubai</p>
+        <div className="company-name">
+          <h1 className="main-company-name">ESXATA</h1>
+          <h2 className="secondary-company-name">GLOBAL PROPERTIES</h2>
         </div>
 
         <h2 className="founder-header">Message From The Founder</h2>
@@ -20,6 +21,9 @@ const AboutPage: React.FC = () => {
             </p>
             <p className="founder-name">- Mashkhura Ruziboeva, Founder</p>
           </div>
+        </div>
+        <div className="countries-list">
+          <p>London • Central Asia • Dubai</p>
         </div>
         <div className="about-page-lines">
           <svg viewBox="0 0 500 500" width="100%" height="250px" preserveAspectRatio="none">

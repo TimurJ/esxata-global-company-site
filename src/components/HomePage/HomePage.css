@@ -16,12 +16,12 @@
 }
 
 .main-company-name {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
 .secondary-company-name {
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
@@ -32,12 +32,12 @@
 }
 
 .tagline {
-  font-size: 3.4rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
 .mission {
-  font-size: 1.9rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 

@@ -9,38 +9,33 @@
   color: var(--secondary);
 }
 
-.about-header {
-  font-size: 3rem;
-  margin-top: 25px;
-}
-
 .countries-list {
-  font-size: 2rem;
-  margin-top: 60px;
+  font-size: 1rem;
+  margin-top: 50px;
 }
 
 .founder-header {
-  margin-top: 60px;
-  font-size: 2.5rem;
+  margin-top: 50px;
+  font-size: 2rem;
 }
 
 .founder-section {
   display: flex;
   align-items: center;
-  width: 50%;
+  max-width: 60%;
   border-radius: 20px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .founder-image {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
 
 .founder-quote-name {
-  margin-left: 80px;
-  font-size: 1.5rem;
+  margin-left: 50px;
+  font-size: 1rem;
 }
 
 .founder-quote {
@@ -63,16 +58,16 @@
 }
 
 .section-header {
-  margin-top: 50px;
-  font-size: 2.5rem;
+  margin-top: 25px;
+  font-size: 2rem;
 }
 
 .about-section-text {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  max-width: 60%;
-  font-size: 1.5rem;
+  gap: 20px;
+  max-width: 70%;
+  font-size: 1rem;
   margin-top: 50px;
   margin-bottom: 50px;
 }
