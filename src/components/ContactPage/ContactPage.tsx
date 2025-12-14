@@ -21,15 +21,17 @@ const ContactPage: React.FC = () => {
         <div className="contact-details">
           <div>
             <p>Email:</p>
-            <p>Contact@esxataglobal.com</p>
+            <p>contact@esxataglobal.com</p>
           </div>
           <div>
             <p>WhatsApp:</p>
-            <p>+447775531771</p>
+            <p>+44 (0) 777 553 1771</p>
           </div>
           <div>
             <p>Location:</p>
-            <p>London, United Kingdom, SW6</p>
+            <p>London</p>
+            <p>United Kingdom</p>
+            <p>SW6</p>
           </div>
         </div>
       </div>
